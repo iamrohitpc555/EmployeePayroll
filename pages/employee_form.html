@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/employee_form.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script defer src ="../js/employee_form.js"></scriptdefer></script>
-    <script src="../js/EmployeePayroll.js"></script>
-
+    <script defer src ="../js/employee_from.js"></scriptdefer></script>
     <title>Employee Payroll App</title>
 </head>
 <body>
-    <!-- UC-1 -->
     <header class="header-content header">
       <div class="logo-content">
         <img src="../assets/images/logo.png">
@@ -21,16 +18,15 @@
         </div>
       </div>
     </header>
-      <!-- UC-2 -->
     <div class="form-content">
-        <form class="form" action="#" onsubmit="save();return false">
+        <form class="form" action="#" onsubmit="save()">
           <div class="form-head">Employee Payroll form</div>
 
           <div class="row-content">
             <label class="label text" for="name">Name</label>
             <input class="input" type="text" name="name" id="name" placeholder="Your Name" required>
           </div>
-           <!-- UC-3 -->
+
           <div class="row-content">
             <label class="label text">Profile image</label>
             <div class="profile-radio-content">
@@ -56,7 +52,6 @@
               </label>
             </div>
           </div>
-          <!-- UC-4 -->
           <div class="row-content">
             <label class="label text" for="gender">Gender</label>
             <div>
@@ -69,15 +64,15 @@
           <div class="row-content">
             <label class="label text" for="department">Department</label>
             <div>
-              <input class="checkbox" type="checkbox" name="hr" id="hr" values="HR">
+              <input class="checkbox" type="checkbox" name="department" id="hr" value="HR">
               <label class="text" for="hr">HR</label>
-              <input class="checkbox" type="checkbox" name="sales" id="sales" values="Sales">
+              <input class="checkbox" type="checkbox" name="department" id="sales" value="Sales">
               <label class="text" for="sales">Sales</label>
-              <input class="checkbox" type="checkbox" name="finance" id="finance" values="Finance">
+              <input class="checkbox" type="checkbox" name="department" id="finance" value="Finance">
               <label class="text" for="finance">Finance</label>
-              <input class="checkbox" type="checkbox" name="engineer" id="engineer" values="Engineer">
+              <input class="checkbox" type="checkbox" name="department" id="engineer" value="Engineer">
               <label class="text" for="engineer">Engineer</label>
-              <input class="checkbox" type="checkbox" name="others" id="others" values="Others">
+              <input class="checkbox" type="checkbox" name="department" id="others" value="Others">
               <label class="text" for="others">Others</label>
             </div>
           </div>
@@ -87,7 +82,6 @@
                    min="300000" max="500000" step="100" value="400000">
             <output class="salary-output text" for="salary">400000</output>
           </div>
-          <!-- UC-5 -->
           <div class="row-content">
             <label class="label text" for="startDate">Start Date</label>
             <div>
@@ -147,8 +141,8 @@
               </select>
             </div>
           </div>
-          <!-- UC-6 -->
-          <div class="row-content">
+        <!-- UC-6 -->
+        <div class="row-content">
             <label class="label text" for="notes">Notes</label>
             <textarea class="input" id="notes" name="Notes" style="height: 100px;"></textarea>
           </div>
