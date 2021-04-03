@@ -11,12 +11,12 @@ window.addEventListener('DOMContentLoaded',(event) => {
           <td>
           <img class="profile" alt="" src="../assets/profile-images/Ellipse -2.png">
           </td>
-          <td>Amit Prajapti</td>
+          <td>Rohit Chaudhari</td>
           <td>Male</td>
           <td><div class="dept-label">HR</div>
               <div class="dept-label">Engineer</div></td>
           <td>499999</td>
-          <td>1 Jan 2016</td>
+          <td>1 Jan 2021</td>
           <td>
           <img id="1" onclick="removie(this)" alt="delete" 
                   src="../assets/icons/delete-black-18dp.svg">
